@@ -1,0 +1,16 @@
+"Luke Skywalker" "172" "male" "human" "Jedi Order, Rebel Alliance";
+"R2-D2" "96" "n/a" "droid" "Rebel Alliance";
+"C-3PO" "167" "n/a" "droid" "Rebel Alliance";
+"Darth Vader" "202" "male" "human" "Galactic Empire, Sith";
+"Leia Organa" "150" "female" "human" "Rebel Alliance, The Resistance";
+"Owen Lars" "178" "male" "human" "Tatooine, Lars Farm";
+"Beru Whitesun lars" "165" "female" "human" "Tatooine, Lars Farm";
+"R5-D4" "97" "n/a" "droid" "Tatooine";
+"Biggs Darklighter" "183" "male" "human" "Rebel Alliance";
+"Obi-Wan Kenobi" "182" "male" "human" "Jedi Order";
+"Yoda" "66" "male" "unknown" "Jedi Order";
+"Jek Tono Porkins" "180" "male" "human" "Rebel Alliance";
+"Jabba Desilijic Tiure" "175" "hermaphrodite" "hutt" "Jabba the Hutt's Palace";
+"Han Solo" "180" "male" "human" "Rebel Alliance";
+"Chewbacca" "228" "male" "Wookiee" "Rebel Alliance, The Resistance";
+"Anakin Skywalker" "188" "male" "human" "Jedi Order";
