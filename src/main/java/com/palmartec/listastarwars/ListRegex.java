@@ -23,15 +23,24 @@ public class ListRegex {
     public static void main(String[] args) {
         
         System.out.println("Listar todos los personajes que no sean hombres");
-        leerContenido("lista.txt", "\"(?!male)([a-zA-Z\\s0-9-/',]+)\"(\\s|;)");
+        leerContenido(
+                "lista.txt", 
+                "(\"[a-zA-Z\\s0-9-/,']+\"\\s){2}(?!\"male\")(\"[a-zA-Z\\s0-9-/,']+\"\\s){2}(\"[a-zA-Z\\s0-9-/,']+\";)"
+        );
         System.out.println("");
         
         System.out.println("Listar todos los personajes que midan 2 metros o más");
-        leerContenido("lista.txt", "\"2[0-9]{0,}\"");
+        leerContenido(
+                "lista.txt", 
+                "(\"[a-zA-Z\\s0-9-/,']+\"\\s){1}(?=\"2[0-9]{0,}\")(\"[a-zA-Z\\s0-9-/,']+\"\\s){3}(\"[a-zA-Z\\s0-9-/,']+\";)"
+        );
         System.out.println("");
         
         System.out.println("Listar todos los personajes que midan menos del metro.");
-        leerContenido("lista.txt", "\"[0-9]{2}\"");
+        leerContenido(
+                "lista.txt", 
+                "(\"[a-zA-Z\\s0-9-/,']+\"\\s){1}(?=\"[0-9]{2}\")(\"[a-zA-Z\\s0-9-/,']+\"\\s){3}(\"[a-zA-Z\\s0-9-/,']+\";)"
+        );
     }
     
     
